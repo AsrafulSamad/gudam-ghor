@@ -1,0 +1,14 @@
+<problems>
+    <binarysearch>
+        <problem_1>
+            Given an array of integers that is already sorted in ascending order, find two numbers such that they add up to a specific target number.
+        </problem_1>
+
+        <problem_2>
+            Since each version is developed based on the previous version, all the versions after a bad version are also bad.
+            Suppose you have n versions [1, 2, ..., n] and you want to find out the first bad one, which causes all the following ones to be bad.
+        </problem_2>
+
+    </binarysearch>
+
+</problems>
