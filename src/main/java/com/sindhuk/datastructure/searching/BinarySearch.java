@@ -13,6 +13,29 @@ Auxiliary Space: O(1)
 // Java implementation of iterative Binary Search
 class BinarySearch
 {
+    // Returns index of x if it is present in matrix[][], else
+    // return -1
+    public boolean searchMatrix(int[][] matrix, int target) {
+        int col = matrix[0].length;
+        int row = matrix.length;
+        int i,j,m;
+        int l = 0, r = row*col - 1;
+        while (l <= r)
+        {
+            m = l + (r-l)/2;
+            i = m/col;
+            j = m%col;
+
+            if (matrix[i][j] == target)
+                return true;
+            if (matrix[i][j] < target)
+                l = m + 1;
+            else
+                r = m - 1;
+        }
+        return false;
+    }
+
     // Returns index of x if it is present in arr[], else
     // return -1
     int binarySearch(int arr[], int x)
