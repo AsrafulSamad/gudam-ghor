@@ -1,4 +1,4 @@
-package main.java.com.sindhuk.leetcode.ds1;
+package main.java.com.sindhuk.leetcode.ds1.array;
 
 public class LC_566 {
     public int[][] matrixReshape(int[][] mat, int r, int c) {

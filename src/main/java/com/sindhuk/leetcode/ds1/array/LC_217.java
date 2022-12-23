@@ -1,9 +1,6 @@
-package main.java.com.sindhuk.leetcode.ds1;
-
-import main.java.com.sindhuk.leetcode.LC_34;
+package main.java.com.sindhuk.leetcode.ds1.array;
 
 import java.util.*;
-import java.util.stream.IntStream;
 
 public class LC_217 {
     public boolean containsDuplicate(int[] nums) {

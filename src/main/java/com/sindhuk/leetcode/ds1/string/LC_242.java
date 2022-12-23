@@ -1,4 +1,4 @@
-package main.java.com.sindhuk.leetcode.ds1;
+package main.java.com.sindhuk.leetcode.ds1.string;
 
 public class LC_242 {
 

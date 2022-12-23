@@ -1,4 +1,4 @@
-package main.java.com.sindhuk.leetcode.ds1;
+package main.java.com.sindhuk.leetcode.ds1.array;
 
 
 import java.util.BitSet;

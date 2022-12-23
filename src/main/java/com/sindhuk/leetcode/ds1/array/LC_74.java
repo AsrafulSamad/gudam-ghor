@@ -1,4 +1,4 @@
-package main.java.com.sindhuk.leetcode.ds1;
+package main.java.com.sindhuk.leetcode.ds1.array;
 
 public class LC_74 {
     public boolean searchMatrix(int[][] matrix, int target) {
